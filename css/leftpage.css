@@ -1,0 +1,89 @@
+.hidden {
+  display: none;
+}
+
+.left-page {
+  height: 80%;
+  width: 300px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+}
+
+.left-page__category__user {
+  width: 300px;
+  height: 28%;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(15, 43, 255, 0.3) 0px 19px 38px,
+    rgba(116, 127, 246, 0.22) 0px 15px 12px;
+}
+
+.left-page__category__user__login-form input {
+  border-style: hidden;
+  background-color: black;
+  color: white;
+}
+
+.left-page__category__user__login-form input::placeholder {
+  color: white;
+}
+
+.left-page__category__user h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.left-page__category__user span {
+  color: gray;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.left-page__category__time {
+  width: 300px;
+  height: 28%;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.left-page__category__time h2 {
+  font-size: 50px;
+}
+
+.left-page__category__sites {
+  width: 300px;
+  height: 28%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.left-page__category__sites__column:first-child {
+  margin-bottom: 5px;
+}
+
+.left-page__category__sites__column a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-page__category__sites__column:first-child i {
+  margin-left: 5px;
+}
