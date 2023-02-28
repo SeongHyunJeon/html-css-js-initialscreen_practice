@@ -1,0 +1,69 @@
+.right-page {
+  height: 80%;
+  width: 1200px;
+  border-radius: 30px;
+  margin: 80px 80px 40px 0px;
+  background-color: rgb(255, 255, 255); /*This will be deleted.*/
+}
+
+.right-page__column {
+  display: flex;
+  height: 14%;
+  width: 1200px;
+}
+
+.right-page__column__left,
+.right-page__column__middle,
+.right-page__column__right {
+  width: 340px;
+  height: 200%;
+  border-radius: 30px;
+}
+
+.right-page__column__left,
+.right-page__column__middle {
+  margin-right: 40px;
+}
+
+.right-page__column__left__today,
+.right-page__column__left__d-day {
+  width: 340px;
+  height: 45%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.right-page__column__left__today {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.right-page__column__left__d-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.right-page__column__left__d-day span {
+  color: white;
+  font-size: 20px;
+}
+
+.right-page__column__middle {
+  background-color: tan;
+}
+
+.right-page__column__right {
+  background-color: saddlebrown;
+}
+
+#deadline-effect {
+  color: hotpink;
+  font-size: 40px;
+}
