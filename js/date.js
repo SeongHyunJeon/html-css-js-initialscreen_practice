@@ -31,7 +31,6 @@ const dateInfo = {
     const diffInMs = dDay.getTime() - curDay.getTime();
     const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 
-    console.log(today.innerText);
     dDayInput.classList.add("hidden");
     dDaySpan.id = "deadline-effect";
 

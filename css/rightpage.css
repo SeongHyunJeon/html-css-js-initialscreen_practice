@@ -30,8 +30,6 @@
   width: 340px;
   height: 45%;
   border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .right-page__column__left__today {
@@ -40,6 +38,9 @@
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(248, 121, 201, 0.1) 20px 20px,
+    rgba(255, 255, 255, 0.05) 25px 25px;
 }
 
 .right-page__column__left__d-day {
@@ -55,15 +56,41 @@
   font-size: 20px;
 }
 
-.right-page__column__middle {
-  background-color: tan;
-}
-
-.right-page__column__right {
-  background-color: saddlebrown;
-}
-
 #deadline-effect {
   color: hotpink;
   font-size: 40px;
+}
+
+.right-page__column__middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+  box-shadow: rgba(255, 174, 87, 0.777) 0px 19px 38px,
+    rgba(255, 173, 173, 0.22) 0px 15px 12px;
+}
+
+.right-page__column__middle span {
+  color: white;
+}
+
+.right-page__column__middle span:first-child {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.right-page__column__middle span:nth-of-type(2) {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.right-page__column__middle span:last-child {
+  display: flex;
+  padding: 0px 40px;
+  margin-top: 5px;
+}
+
+.right-page__column__right {
+  background-color: rgb(0, 0, 0);
 }
