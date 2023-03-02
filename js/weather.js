@@ -22,7 +22,7 @@ function onGeoOk(position) {
         ".right-page__column__middle span:last-child"
       );
 
-      city.innerText = data.name;
+      // city.innerText = data.name;
 
       const weatherIcon = document.createElement("i");
       if (data.weather[0].main === "Clouds") {
