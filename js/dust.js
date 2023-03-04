@@ -4,8 +4,6 @@ function getAirSituation() {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.dir(data.response.body.items[0].pm10Value);
-
       const dust = document.querySelector(
         ".right-page__column__right span:first-child"
       );

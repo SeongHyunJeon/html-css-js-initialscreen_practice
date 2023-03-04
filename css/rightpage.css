@@ -3,13 +3,13 @@
   width: 1200px;
   border-radius: 30px;
   margin: 80px 80px 40px 0px;
-  background-color: rgb(255, 255, 255); /*This will be deleted.*/
 }
 
-.right-page__column {
+.right-page__column:first-child {
   display: flex;
   height: 14%;
   width: 1200px;
+  margin-bottom: 160px;
 }
 
 .right-page__column__left,
@@ -38,6 +38,7 @@
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  background-color: white;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(248, 121, 201, 0.1) 20px 20px,
     rgba(255, 255, 255, 0.05) 25px 25px;
@@ -124,4 +125,78 @@
 
 #finedust-effect {
   color: rgb(251, 110, 110);
+}
+
+.right-page__column:last-child {
+  display: flex;
+  width: 1100px;
+  height: 62%;
+}
+
+.right-page__column__todo,
+.right-page__column__quote,
+.right-page__column__time-management {
+  width: 340px;
+  height: 100%;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.right-page__column__todo,
+.right-page__column__quote {
+  margin-right: 50px;
+}
+
+.right-page__column__todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: blanchedalmond;
+}
+
+.right-page__column__todo > span {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: red;
+}
+
+.right-page__column__todo__form {
+  width: 250px;
+}
+
+.right-page__column__todo__form > input {
+  width: 280px;
+  height: 30px;
+  border-style: hidden;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  position: absolute;
+  bottom: 15px;
+  left: 28px;
+}
+
+.right-page__column__todo__form input::placeholder {
+  color: rgb(255, 119, 0);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.right-page__column__todo__form__list li {
+  margin-bottom: 10px;
+}
+
+.right-page__column__todo__form__list input {
+  margin-right: 10px;
+}
+
+.right-page__column__todo__form__list span {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.task-done {
+  text-decoration-line: line-through;
 }
