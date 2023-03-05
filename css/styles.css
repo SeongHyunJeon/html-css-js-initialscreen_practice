@@ -17,3 +17,11 @@ body {
 .hidden {
   display: none;
 }
+
+#notification span {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+}
