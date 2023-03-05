@@ -139,7 +139,6 @@
   width: 340px;
   height: 100%;
   border-radius: 30px;
-  background-color: white;
 }
 
 .right-page__column__todo,
@@ -222,4 +221,88 @@
 
 .right-page__column__quote__quotation span:last-child {
   justify-content: flex-end;
+}
+
+.right-page__column__time-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.right-page__column__time-management__title,
+.right-page__column__time-management__table,
+.right-page__column__time-management__total {
+  width: 300px;
+}
+
+.right-page__column__time-management__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right-page__column__time-management__title span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.right-page__column__time-management__table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+  margin-bottom: 5px;
+}
+
+.right-page__column__time-management__table__row {
+  width: 140px;
+  height: 100%;
+}
+
+.right-page__column__time-management__table__row:first-child {
+  margin-right: 10px;
+}
+
+.right-page__column__time-management__table__row__hour {
+  display: flex;
+  width: 100%;
+  height: 7.5%;
+}
+
+.right-page__column__time-management__table__row__hour div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14%;
+  height: 100%;
+  border: 1px black double;
+  border-color: white;
+  color: skyblue;
+}
+
+.right-page__column__time-management__table__row__hour div:hover {
+  background-color: black;
+}
+
+.right-page__column__time-management__table__row__hour div:first-child:hover {
+  background-color: inherit;
+}
+
+.right-page__column__time-management__total {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.right-page__column__time-management__total span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.clicked-effect {
+  background-color: black;
 }
