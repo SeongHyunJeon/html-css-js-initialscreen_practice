@@ -200,3 +200,26 @@
 .task-done {
   text-decoration-line: line-through;
 }
+
+.right-page__column__quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.right-page__column__quote__quotation span {
+  display: flex;
+  width: 250px;
+  font-size: 20px;
+  color: white;
+}
+
+.right-page__column__quote__quotation span:first-child {
+  margin-bottom: 20px;
+}
+
+.right-page__column__quote__quotation span:last-child {
+  justify-content: flex-end;
+}
